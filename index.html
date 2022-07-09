@@ -8,82 +8,98 @@
     <meta name="keywords" content="Okdirov, CV">
     <meta name="description" content="Резюме Окдирова">
     <title>Мое резюме</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <div class="container">
+        <div class="propone">
+            <div class="blockone">
+                <img src="Профиль.JPG" class="avatar">
+            </div>
+            <div class="blocktwo">
+                <h1>Окдиров Ресул</h1>
+                <p class="descOk">Я проффесиональный геодезист. С многолетним опытом и знаниями.<br>Работал в разных
+                    странах. В
+                    оновном в международных строительных компаниях.</p>
 
-    <img src="Профиль.JPG" width="150" alt="">
-    
-    <h1>Окдиров Ресул</h1>
-    
-    <p>Я проффесиональный <strong>геодезист</strong>. С многолетним опытом и знаниями.<br>Работал в разных странах. В оновном в <strong>международных</strong> строительных компаниях.</p>
-    
-    <p>Я люблю <em>путешествовать, программировать, ходить в походы.</em></p>
-    
-    <h2><strong>Список социальных сетей:</strong></h2>
+                <p class="descOK">Я люблю путешествовать, программировать, ходить в походы.</p>
 
-    <a href="https://vk.com/al_feed.php?payload=%7B%22is_registration%22%3Atrue%7D" target="_blank">VKontakte</a>
-    |
-    <a href="https://web.telegram.org/k/" target="_blank">Telegram</a>
+                <h3 class="change">Список социальных сетей:</h3>
 
-    <h3><strong>Мое хобби</strong></h3>
+                <a href="https://vk.com/al_feed.php?payload=%7B%22is_registration%22%3Atrue%7D"
+                    target="_blank">VKontakte</a>
+                |
+                <a href="https://web.telegram.org/k/" target="_blank">Telegram</a>
+            </div>
+        </div>
+        <div class="proptwo">
+            <h3 class="change">Мое хобби</h3>
 
-    <ol>
-        <li>Походы</li>
-        <li>Программирование</li>
-        <li>Спорт</li>
-    </ol>
+            <ol class="list">
+                <li>Походы</li>
+                <li>Программирование</li>
+                <li>Спорт</li>
+            </ol>
+        </div>
+        <div class="propthree">
+            <h3 class="change">Опыт работы</h3>
 
-    <h4><strong>Опыт работы</strong></h4>
+            <table class="table">
 
-    <table>
+                <!-- <thead>
+                    <tr>
+                        <th>Назание</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>Bougues constructinon</td>
+                        <td>Gometre</td>
+                        <td>2010-2016</td>
+                    </tr>
+                    <tr>
+                        <td>Vinci constructinon</td>
+                        <td>Gometre</td>
+                        <td>2015-for the moment</td>
+                    </tr>
+                </tbody>
 
-        <thead>
-            <tr>
-                <th>Назание</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-           </thead> 
-           <tbody>
-            <tr>
-                <td>Bougues constructinon</td>
-                <td>Gometre</td>
-                <td>2010-2016</td>
-            </tr>
-            <tr>
-                <td>Vinci constructinon</td>
-                <td>Gometre</td>
-                <td>2015-for the moment</td>
-            </tr>
-           </tbody>
+            </table>
+        </div>
+        <div class="propfour">
+            <h3>Мои курсы</h3>
+            <ul class="link-list">
+                <li>Курс 1</li>
+                <li>Курс 2</li>
+            </ul>
+        </div>
 
-    </table>
+        <div class="form">
+            <h3 class="change">Связаться со мной</h3>
+            <div class="formrow">
+                <div class="form_group">
+                    <label for="text">Ваше имя</label>
+                    <input type="text" id="text" placeholder="Введите имя">
+                </div>
 
-    <h4><strong>Связаться со мной</strong></h4>
+                <div class="form_group">
+                    <label for="email">Ваш еmail</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form_group">
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" cols="15" rows="10" placeholder="Введите сообщение"></textarea>
+            </div>
 
-    <div>
-        <label for="text">Ваше имя</label>
-        <input type="text" id="text" 
-        placeholder="Введите имя">
+            <button class="btn" type="submit">Отправить!</button>
+        </div>
+
     </div>
-
-    <div>
-        <label for="email">Ваш еmail</label>
-        <input type="email" id="email"
-        placeholder="Введите email">
-    </div>
-
-    <div>
-        <label for="message">Ваше сообщение:</label>
-        <br>
-        <textarea id="message" cols="15" rows="10"
-        placeholder="Введите сообщение"></textarea> 
-    </div>
-
-    <button type = "submit">Отправить!</button>
-
-
 </body>
 
 </html>
